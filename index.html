@@ -12,7 +12,7 @@
    <button onclick="sendMsg">Falar</button>
 </body>
 <script>
-   var conn = new WebSocket('wss://fenix-ws.herokuapp.com/wss');
+   var conn = new WebSocket('wss://imperwebsocket.herokuapp.com/wss');
    conn.onopen = function(e) {
       console.log("Connection established!");
       conn.send("Olá websocekt!");
